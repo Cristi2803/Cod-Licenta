@@ -1,0 +1,431 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #20b3e0;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+header .logo {
+    display: inline-block; 
+    vertical-align: middle;
+    margin-right: 20px; 
+}
+
+header .logo h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif;
+    line-height: 1;
+}
+
+header nav {
+    display: inline-block; 
+    float: none; 
+    vertical-align: middle; 
+}
+
+header nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+   
+    color: #ffffff;
+   
+}
+
+.logout {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff0000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.logout:hover {
+   
+    color: #050505;
+   
+}
+
+.login {
+    color: #111111;
+    text-decoration: none;
+    background-color: #9aff48;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.login:hover {
+   
+    color: #878787;
+   
+}
+
+.register {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #101010;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.register:hover {
+   
+    color: #5c5c5c;
+   
+}
+
+
+
+
+
+header .search-form {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+header .search-form input[type="text"] {
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 150px; 
+    transition: width 0.4s ease-in-out;
+    font-size: 14px; 
+}
+
+header .search-form input[type="text"]:focus {
+    width: 200px; 
+}
+
+header .search-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px; 
+}
+
+header .search-form button:hover {
+    background-color: #555;
+}
+
+.button {
+    display: inline-block;
+    background-color: #20b3e0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #1a93b5;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 100px;;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.comment {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.comment strong {
+    color: #555;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+.container p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 14px;
+    border-top: 2px solid #444;  
+}
+
+footer p {
+    margin: 5px 0; 
+}
+
+
+.hero-section {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/642445004586b4330e81b689//960x0.jpg?format=jpg&width=1440'); 
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 48px; 
+    margin: 0 0 10px;
+    color: #fff
+}
+
+.hero-content p {
+    font-size: 24px; 
+    margin: 0;
+    color: #fff;
+}
+
+.hero-content .search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-content .search-form input[type="text"] {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 200px;
+    font-size: 16px;
+    height: 40px; 
+    box-sizing: border-box;
+}
+
+.hero-content .search-form button {
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #20b3e0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 40px;
+}
+
+.hero-content .search-form button:hover {
+    background-color: #1a93b5;
+}
+
+
+.about-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    margin: 20px auto;
+}
+
+.about-content h1, .about-content h2 {
+    color: #333;
+}
+
+.about-content p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.about-images img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    margin: 20px auto;
+}
+
+.contact-content h1, .contact-content h2 {
+    color: #333;
+}
+
+.contact-content p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-content ul li {
+    margin: 10px 0;
+}
+
+.contact-content ul li a {
+    color: #20b3e0;
+    text-decoration: none;
+}
+
+.contact-content ul li a:hover {
+    text-decoration: underline;
+}
